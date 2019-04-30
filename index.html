@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-      
-  
+<head>
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    
-    <title>TEDx JSSATE</title>
+
+    <title>
+      TEDx JSSATE
+    </title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -28,221 +30,549 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    
+
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/tab.css" rel="stylesheet">
-    
+
     <link rel="icon" type="image.png" href="img/tedxjssatelogo.png" />
-    
-    
-    <script src="js/index.js"></script>
 
-  </head>
 
-  <body id="page-top" background="\img\header-bg.jpg" onload="updateClock2(); setInterval('updateClock2()', numSeconds * 1000 )">
-    <div id="player">
+    <script src="js/index.js">
+    </script>
+
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+    </style>
+</head>
+
+<body id="page-top" background="\img\header-bg.jpg" onload="updateClock2(); setInterval('updateClock2()', numSeconds * 1000 )">
+  <div id="player">
     <audio loop autoplay hidden>
      <source src="music.mp3" type="audio/mp3">
-               
     </audio>
-</div>
+  </div>
 
-
-    <!-- Navigation -->
+  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/tedxjssate.png" alt="logo" class="img-rounded pull-left" width="200" height="55"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#speakers">speakers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#event">event</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#speakers">speakers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#event">event</a>
+                </li>
+                <!--ADDED CODE STARTS-->
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#Gallery">Gallery</a>
+                </li>
+                <!--ADDED CODE ENDS-->
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in"></div>
-          <!-- <div class="intro-heading">MINDS <font color="red">WIDE</font> OPEN</div> -->
-          
-              <div id="clockdiv">
-  <div>
-    <span id="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span id="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span id="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span id="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</div><br>
-
-          <p><a class="btn btn-xl js-scroll-trigger" href="https://www.facebook.com/tedxjssate/" target="_blank">BUY TICKETS</a></p>
-        </div>
-        
-
-      </div>
-
-
-    </header>
+       <!-- Header -->
+       <header class="masthead">
+         <div class="container">
+           <div class="intro-text">
+             <div class="intro-lead-in">
+             </div>
+             <div class="intro-heading">COMING <font color="red">SOON!</font>
+             </div>
+             <!--
+             <div id="clockdiv">
+               <div>
+                <span id="days"></span>
+                  <div class="smalltext">Days</div>
+               </div>
+               <div>
+                <span id="hours"></span>
+                <div class="smalltext">Hours</div>
+               </div>
+               <div>
+                 <span id="minutes"></span>
+                 <div class="smalltext">Minutes</div>
+               </div>
+               <div>
+                 <span id="seconds"></span>
+                 <div class="smalltext">Seconds</div>
+               </div>
+             </div>
+             -->
+             <br>
+             <p><a class="btn btn-xl js-scroll-trigger"  target="_blank">2019</a></p>
+           </div>
+         </div>
+       </header>
 
 
 
-    <!-- about -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">about</h2>
-            <h3 class="section-subheading text-muted">TED,TEDx and TEDx JSSATE</h3>
+       <!-- about -->
+       <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">about</h2>
+              <h3 class="section-subheading text-muted">TED,TEDx and TEDx JSSATE</h3>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4">
+              <img class="mx-auto rounded-circle" src="img/tedlogo.png" alt=""width="128" height="128">
+              <p class="text-muted">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world's leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img class="mx-auto rounded-circle" src="img/tedxlogo.png" alt=""width="128" height="128">
+              <p class="text-muted">In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <a href="https://www.ted.com/tedx/events/24520"><img class="mx-auto rounded-circle" src="img/tedxjssatelogo.png" alt=""width="128" height="128">
+              </a>
+              <p class="text-muted">Jagadguru Sri Shivarathreeshwara Academy of Technical Education (JSSATE) is an educational institute situated in Noida, Uttar Pradesh affiliated to Abdul Kalam Technical University, Gautam Buddha Nagar. The institute was inaugurated by former president of India Dr. A.P.J. Abdul Kalam in 1998. Having completed 19 years of existence, it continues to be a house of culturally diverse students.
+              TEDxJSSATE 2018 brought to the stage some of the most accomplished pioneers in the arts, technology, medicine and social sciences for an incomparable day of short talks and world-class performances.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <img class="mx-auto rounded-circle" src="img/tedlogo.png" alt=""width="128" height="128">
-            
-            <p class="text-muted">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world's leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.</p>
+      </section>
+
+      <!-- speakers Grid -->
+      <section class="bg-light" id="speakers">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">speakers</h2>
+              <h3 class="section-subheading text-muted">Performers,Storytellers,Inventors</h3>
+            </div>
           </div>
-          <div class="col-md-4">
-            <img class="mx-auto rounded-circle" src="img/tedxlogo.png" alt=""width="128" height="128">
-            
-            <p class="text-muted">In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.</p>
+          <div class="row">
+
+            <!--SPEAKER 1-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal1">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                   
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/heena.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>RJ Heena</h4>
+                <p class="text-muted">RJ at RED FM 93.5</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 1 ENDS-->
+
+            <!--SPEAKER 2-->
+
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal2">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/kautilya.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Kautilya Pandit</h4>
+                <p class="text-muted">The Google Boy</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 2 ENDS-->
+
+            <!--SPEAKER 3-->
+
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal3">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/pravin.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Lt Cdr Pravin Tulpule</h4>
+                <p class="text-muted">Happy, the caring clown</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 3 ENDS-->
+
+            <!--SPEAKER 4-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal4">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/Nikita.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Nikita Anand</h4>
+                <p class="text-muted">Former Miss India , Actress &  Model</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 4 ENDS-->
+
+
+            <!--SPEAKER 5-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal5">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/Tania.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Tania Singh</h4>
+                <p class="text-muted">CEO, Make Love Not Scar</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 5 ENDS-->
+
+
+            <!--SPEAKER 6-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal6">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/ashqeen.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Aashqeen</h4>
+                <p class="text-muted">Youtube Content Creater</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 6 ENDS-->
+
+
+            <!--SPEAKER 7-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal7">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/4k.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Chaar Hazaari</h4>
+                <p class="text-muted">Folk Rock Band</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 7 ENDS-->
+
+
+            <!--SPEAKER 8 damle sir -->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal8">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/damle.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Akshara Damle</h4>
+                <p class="text-muted">Psychologist</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 8 ENDS-->
+
+
+            <!--SPEAKER 9-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal9">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/joshi.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Parikshit Joshi</h4>
+                <p class="text-muted">Writer and Director</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 9 ENDS-->
+
+
+            <!--SPEAKER 10 jay-->
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#speakersModal10">
+                <div class="speakers-hover">
+                  <div class="speakers-hover-content">
+                    
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/jay.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>Jay Alani</h4>
+                <p class="text-muted">Paranormal Investigator</p>
+              </div>
+            </div>
+
+            <!--SPEAKER 10 ENDS-->
+
+             <!--SPEAKER 11 ajay sir-->
+             <div class="col-md-4 col-sm-6 speakers-item">
+                <a class="speakers-link" data-toggle="modal" href="#speakersModal11">
+                  <div class="speakers-hover">
+                    <div class="speakers-hover-content">
+                      
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/speakers/ssp.PNG" alt="">
+                </a>
+                <div class="speakers-caption">
+                  <h4>IPS DR. AJAY PAL SHARMA</h4>
+                  <p class="text-muted">SSP, GAUTAM BUDH NAGAR</p>
+                </div>
+              </div>
+  
+              <!--SPEAKER 10 ENDS-->
+
+
+
+            <!--COMING SOON
+
+            <div class="col-md-4 col-sm-6 speakers-item">
+              <a class="speakers-link" data-toggle="modal" href="#">
+                <div>
+                  <div class="speakers-hover-content">
+
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/speakers/coming_soon.png" alt="">
+              </a>
+              <div class="speakers-caption">
+                <h4>HOLD YOUR HORSES :)</h4>
+                <p class="text-muted">TAKE A DEEP BREATH!</p>
+              </div>
+            </div>
+
+            COMING SOON ENDS-->
+
+            </div>
           </div>
-          <div class="col-md-4">
-            <a href="https://www.ted.com/tedx/events/24520"><img class="mx-auto rounded-circle" src="img/tedxjssatelogo.png" alt=""width="128" height="128"></a>
-            
-            <p class="text-muted">Jagadguru Sri Shivarathreeshwara Academy of Technical Education (JSSATE) is an educational institute situated in Noida, Uttar Pradesh affiliated to Abdul Kalam Technical University, Gautam Buddha Nagar. The institute was inaugurated by former president of India Dr. A.P.J. Abdul Kalam in 1998. Having completed 19 years of existence, it continues to be a house of culturally diverse students.
-TEDxJSSATE 2017 brought to the stage some of the most accomplished pioneers in the arts, technology, medicine and social sciences for an incomparable day of short talks and world-class performances.</p>
+      </section>
+
+
+      <!-- event -->
+      <section id="event">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Event Timeline</h2>
+              <h3 class="section-subheading text-muted">Stepping Stones Towards our Event</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="img/event/1.jpg" alt="">
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>22 <sup>th</sup> September,2018</h4>
+                      <h4 class="subheading">Recruitments Begin</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">If your thoughts know no bounds, and your ideas are worth spreading, head straight for our recruitments, because a HUGE surprise awaits you! Looking forward to your presence!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="img/event/2.jpg" alt="">
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>3<sup>th</sup>October - 13<sup>th</sup>October,2018</h4>
+                      <h4 class="subheading">Early Bird Pass</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">Limited Seats are available on minimal pricing for limited period!</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="img/event/3.jpg" alt="">
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>14<sup>th</sup>October,2018 onwards</h4>
+                      <h4 class="subheading">Regular Pass</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">Regular pass for the event will be available between these days!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="img/event/4.jpg" alt="">
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>18<sup>th</sup>November,2018</h4>
+                      <h4 class="subheading">Main Event Day</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">"When all think alike, then no one is thinking"
+                        We at JSS Noida, present to you the third season of TEDx JSSATE !! We are bigger, better and our speakers are ready with their inspiration packed talks, waiting to blow your minds.
+                        Because it's not about ideas, it's about making ideas happen!
+                        Brace yourselves for the 18th of November, 2018!
+                        We are back with a bang!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <!--Gallery-->
+
+
+
+
+      <section id="Gallery">
+        <div class="container-fluid">
+          <h1 style="align:center">Last Year Highlights</h1>
+
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                  <li data-target="#demo" data-slide-to="4"></li>
+                  <li data-target="#demo" data-slide-to="5"></li>
+                  <li data-target="#demo" data-slide-to="6"></li>
+                  <li data-target="#demo" data-slide-to="7"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner" id="sumedh">
+                  <div class="carousel-item active">
+                    <img src="img/carousel/aj.jpg" alt="Los Angeles" width="500" height="500">
+                  </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/painter.jpg" alt="Chicago" width="500" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/rjabhinav.jpg" alt="New York" width="500" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/sadakchapp1.jpg" alt="New York" width="500" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/sadakchapp2.jpg" alt="New York" width="500" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/shorya.jpg" alt="New York" width="500" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/tcs.jpg" alt="New York" width="500" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel/technicalguruji.jpg" alt="New York" width="500" height="500">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- speakers Grid -->
-<div class="col-lg-12 text-center">
-            <h2 class="section-heading">Our Speakers</h2>
-          </div>
-  <section class="bg-light" id="speakers">
-      Don't worry, the speaker list will be revealed soon. Stay Tuned. :)
-    </section>
 
-    <!-- event -->
-    <section id="event">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Event Timeline</h2>
-            <h3 class="section-subheading text-muted">Stepping Stones Towards our Event</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/event/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>22 <sup>th</sup> September,2018</h4>
-                    <h4 class="subheading">Recruitments Begin</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">If your thoughts know no bounds, and your ideas are worth spreading, head straight for our recruitments, because a HUGE surprise awaits you! Looking forward to your presence!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/event/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>4<sup>th</sup>October - 13<sup>th</sup>October,2018</h4>
-                    <h4 class="subheading">Early Bird Pass</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Limited Seats are available on minimal pricing for limited period!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/event/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>14<sup>th</sup>October,2018 onwards</h4>
-                    <h4 class="subheading">Regular Pass</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Regular pass for the event will be available between these days!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/event/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>18<sup>th</sup>November</h4>
-                    <h4 class="subheading">Main Event Day</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">"When all think alike, then no one is thinking"
-We at JSS Noida, present to you the third season of TEDx JSSATE !! We are bigger, better and our speakers are ready with their inspiration packed talks, waiting to blow your minds.
-Because it's not about ideas, it's about making ideas happen!
-Brace yourselves for the 18th of November, 2018!
-We are back with a bang!</p>
-                  </div>
-                </div>
-              </li>
-                         </ul>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Team -->
+
+      <!-- Team -->
 
     <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Our Amazing Team</h2>
-            
+
           </div>
         </div>
-        
+
 <div class="tab">
   <button class="tablinks open" onclick="openCity(event, 'Management')">Management</button>
   <button class="tablinks" onclick="openCity(event, 'Web Development')">Web Development</button>
@@ -328,7 +658,7 @@ We are back with a bang!</p>
                 </li>
               </ul>
             </div>
-          </div>	
+          </div>
 <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/sumedh.jpg" alt="">
@@ -429,8 +759,8 @@ We are back with a bang!</p>
               </ul>
             </div>
           </div>
-		  
-		  
+
+
         </div>
 </div>
 
@@ -488,8 +818,8 @@ We are back with a bang!</p>
               </ul>
             </div>
           </div>
-		  
-                   
+
+
         </div>
 </div>
 
@@ -519,7 +849,7 @@ We are back with a bang!</p>
                 </li>
               </ul>
             </div>
-          </div> 
+          </div>
 		<div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/antja.jpg" alt="">
@@ -595,8 +925,8 @@ We are back with a bang!</p>
               </ul>
             </div>
           </div>
-		  
-		  
+
+
 		  <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/shubham2.jpg" alt="">
@@ -623,7 +953,7 @@ We are back with a bang!</p>
             </div>
           </div>
 
-		  
+
         </div>
 </div>
 <div id="Editorial" class="tabcontent">
@@ -653,7 +983,7 @@ We are back with a bang!</p>
                 </li>
               </ul>
             </div>
-          </div> 
+          </div>
 		  <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/anudita.jpg" alt="">
@@ -679,8 +1009,8 @@ We are back with a bang!</p>
               </ul>
             </div>
           </div>
-               
-              
+
+
 </div>
 </div>
 <div id="Budget" class="tabcontent">
@@ -916,8 +1246,8 @@ We are back with a bang!</p>
               </ul>
             </div>
           </div>
-		  
-                            		  
+
+
 </div>
 </div>
 <div id="Operations" class="tabcontent">
@@ -1148,12 +1478,12 @@ We are back with a bang!</p>
               </ul>
             </div>
           </div>
-		  
-		  
+
+
 </div>
 </div>
-        
-        
+
+
 
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -1162,7 +1492,7 @@ We are back with a bang!</p>
         </div>
       </div>
 	  </section>
-	  
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -1209,7 +1539,7 @@ We are back with a bang!</p>
       </div>
 
     </section>
-    
+
 
     <!-- Footer -->
     <footer>
@@ -1248,45 +1578,44 @@ We are back with a bang!</p>
             </ul>
           </div>
         </div>
-<div align='center'><a href=''><img src='http://online-visit-counter.com/cg.php?t=MTQzMTMzMw==' border='0' alt='' height="22" width="75"></a><BR><a href=''>Your visitor number</a><div style="visibility: hidden; display: none;"><a href=""></a></div></div>	      
+<div align='center'><a href=''><img src='http://online-visit-counter.com/cg.php?t=MTQzMTMzMw==' border='0' alt='' height="22" width="75"></a><BR><a href=''>Your visitor number</a><div style="visibility: hidden; display: none;"><a href=""></a></div></div>
 	    </div>
     </footer>
 
     <!-- speakers Modals -->
 
-    <!-- Modal 1 -->
+    <!-- Modal 1 heena -->
     <div class="speakers-modal modal fade" id="speakersModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl"></div>
+              </div>
             </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Vinay Bharadwaj</h2>
-                  <p class="item-intro text-muted">Structural Engineer/KALAM SAT</p>
-                  <img class="img-fluid d-block mx-auto" src="img/speakers/01-full.jpg" alt="">
-                  <p>Kalam SAT is a Femto Satellite and widely-claimed to be the world's lightest satellite, named after former Indian president Dr. A. P. J. Abdul Kalam built by an Indian High school student team, hailing from the Tamil Nadu town of Pallapatti for participation in the Cubes in Space, a STEM-based education program by Idoodle Learning.Inc and NASA, with an objective to teach school students (ages 11-18), how to design and compete to launch an experiment into space with a free opportunity to design experiments to be launched into space on a NASA rocket or balloon if their project is selected. Kalam SAT was launched by NASA along with several other experiments from other participants on Terrier-Improved Orion Rocket on 22 June 2017 from Wallops Island.
-The team consisted of 7 people from various parts of India led by Yagna Sai who is the Lead technician of Space Kidz India,Vinay S Bhardwaj (Structural Engineer)under the supervision of Dr. Srimathy Kesan, Founder & CEO of Space Kidz India.
-</p>
-                  
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <div class="modal-body">
+                    <!-- Project Details Go Here -->
+                    <h2>RJ Heena</h2>
+                    <p class="item-intro text-muted">RJ at RED FM 93.5</p>
+                    <img class="img-fluid d-block mx-auto" src="img/speakers/01-full.jpg" alt="">
+                    <p>RJ Heena is a radio jockey at RED FM 93.5 Delhi. She did her B. Comm from Jammu University and further did her Diploma in Radio from IIMC. She then interned at BIG FM Gwalior and got employed full time at RED FM Delhi. Currently, she hosts the show Midnight Masala from 9 PM to 12 midnight. She is very much admired for her show segment where she conveys messages of people while keeping them anonymous. Her content and style have made her one of the favorites in the youth listeners.
+  </p>
+
+                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                      
+                      Close</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Modal 2 -->
+    <!-- Modal 2 kautilya -->
     <div class="speakers-modal modal fade" id="speakersModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -1300,15 +1629,14 @@ The team consisted of 7 people from various parts of India led by Yagna Sai who 
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Yagna Sai</h2>
-                  <p class="item-intro text-muted">Lead Technician/KALAM SAT</p>
+                  <h2>Kautilya Pandit</h2>
+                  <p class="item-intro text-muted">The Google Boy</p>
                   <img class="img-fluid d-block mx-auto" src="img/speakers/02-full.jpg" alt="">
-                  <p>Kalam SAT is a Femto Satellite and widely-claimed to be the world's lightest satellite, named after former Indian president Dr. A. P. J. Abdul Kalam built by an Indian High school student team, hailing from the Tamil Nadu town of Pallapatti for participation in the Cubes in Space, a STEM-based education program by Idoodle Learning.Inc and NASA, with an objective to teach school students (ages 11-18), how to design and compete to launch an experiment into space with a free opportunity to design experiments to be launched into space on a NASA rocket or balloon if their project is selected. Kalam SAT was launched by NASA along with several other experiments from other participants on Terrier-Improved Orion Rocket on 22 June 2017 from Wallops Island.
-The team consisted of 7 people from various parts of India led by Yagna Sai who is the Lead technician of Space Kidz India,Vinay S Bhardwaj (Structural Engineer)under the supervision of Dr. Srimathy Kesan, Founder & CEO of Space Kidz India.</p>
-                 
+                  <p> Born in a small village in the district of Karnal, Kautilya Pandit has been cited as the Indian 'Google Boy' because of his exceptional knowledge of subjects that are far beyond a normal child of his age group. Many named psychologist have been observing him to understand his massive memory capacity. Kautilya’s talent took him to famous places and people. He appeared in KBC alongside Amitabh Bachchan and also met with the former President Late Dr APJ Abdul Kalam. </p>
+
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                    
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -1317,7 +1645,7 @@ The team consisted of 7 people from various parts of India led by Yagna Sai who 
       </div>
     </div>
 
-    <!-- Modal 3 -->
+    <!-- Modal 3 tulpue -->
     <div class="speakers-modal modal fade" id="speakersModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -1331,17 +1659,15 @@ The team consisted of 7 people from various parts of India led by Yagna Sai who 
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Abhinav Chand</h2>
-                  <p class="item-intro text-muted">Radio Jockey</p>
-                  <img class="img-fluid d-block mx-auto" src="img/speakers/03-full.jpg" alt="">
-                  <p>RJ Abhinav is an Indian Radio Jockey and has got much fame through his talent. His name is related to the Delhi outlet of India’s most popular radio network – Radio Mirchi 98.3 FM, where he works as a radio jockey. He comes on radio with his popular tagline “Radio Mirchi – It’s Hot”.
-His radio network is owned by Entertainment Network India Limited and this network runs in more than 32 Indian Cities. He hosts music shows on his radio and Radio Mirchi is well known for its great RJ and there he is also one of the greatest hosts in all radio networks
-CATCH HIM ON RADIO MIRCHI 98.3FM 5-9PM
+                  <h2>Lt Cdr Pravin Tulpule</h2>
+                  <p class="item-intro text-muted">Happy, the Caring Clown</p>
+                  <img class="img-fluid d-block mx-auto" alt="">
+                  <p>If it's raining, look for rainbows. If it's dark, look for the stars'. Words befitting Mr. Pravin Tulpule and how he lives and inspires others to live. He is that lissome finger, lingering around to guide everyone around him to look around for rainbows and stars.  After serving the Indian Navy for 17 years and retiring as Lt.  Commander Communication Specialist, he is reliving life as 'Pintoo-the clown' and has made it his goal to go to orphanages and pediatric wards to spread smiles on the children's faces. Whether it's a magic trick to leave you in a bind of wonder or a trick to make your stomach hurt from laughing,  Pintoo has it all.
 </p>
-                  
+
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                    
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -1350,7 +1676,7 @@ CATCH HIM ON RADIO MIRCHI 98.3FM 5-9PM
       </div>
     </div>
 
-    <!-- Modal 4 -->
+    <!-- Modal 4 nikita-->
     <div class="speakers-modal modal fade" id="speakersModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -1364,19 +1690,16 @@ CATCH HIM ON RADIO MIRCHI 98.3FM 5-9PM
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Gaurav Chaudhary</h2>
-                  <p class="item-intro text-muted">Indian YouTube Creator</p>
-                  <img class="img-fluid d-block mx-auto" src="img/speakers/04-full.jpg" alt="">
-                  <p>He is one of the very famous YouTuber. He currently resides in Dubai and comes with a Daily New Video on his Channel on Tech News and Tech related videos, Reviews and Un-boxing ofNew Gadgets / Mobiles / Laptops / Camera etc. He completed his MTech in micro electronics from BITS Pilani DUBAI.
-His videos are really easy to understand and very informative.
-He has 2M subscribers.
-He encouraged Hindi language on YouTube and many youths take inspiration from him.
-His TEDx talk can be aptly named as “Technology is my best friend”.
+                  <h2>Nikita Anand</h2>
+                  <p class="item-intro text-muted">Former Miss India , Actress &  Model</p>
+                  <img class="img-fluid d-block mx-auto" >
+                  <p>"To err is human, to forgive is divine, and we have to forgive and move on to make life better". Such were the words of Miss India 2003, Nikita Anand. Winning beauty pagents since she was 13, she became Femina Miss India while studying at NIFT, Delhi.
+Born to a Punjabi family, she has been anchoring, compering, modelling and doing media work since her win in 2003. A perfect blend of beauty and brains, she has actively participated to spread social awareness as well.  There is no beating around the bush when it comes to her and the things she stands for. Firmly opinionated, strong and beautiful in every way. Nikita has never been furtive, safe to say, she has never known how to be.
 </p>
-                  
+
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                    
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -1385,7 +1708,7 @@ His TEDx talk can be aptly named as “Technology is my best friend”.
       </div>
     </div>
 
-    <!-- Modal 5 -->
+    <!-- Modal 5 tania -->
     <div class="speakers-modal modal fade" id="speakersModal5" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -1399,18 +1722,14 @@ His TEDx talk can be aptly named as “Technology is my best friend”.
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/speakers/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
+                  <h2>Tania Singh</h2>
+                  <p class="item-intro text-muted">CEO, Make Love Not Scar</p>
+                  <p>
+                    Tania Singh has been working for more than 2.5 years to help acid attack survivors get back on their feet. Currently the CEO of an NGO 'Make Love Not Scars', Tania Singh and her team have been working to support the victims in every way at their one of a kind rehabilitation center. From legal aid and medical support, to running a campaign for awareness, MLNS has been responsible for getting over 70 lives back on track.
+                  </p>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                    
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -1419,7 +1738,7 @@ His TEDx talk can be aptly named as “Technology is my best friend”.
       </div>
     </div>
 
-    <!-- Modal 6 -->
+    <!-- Modal 6 Aashqeen -->
     <div class="speakers-modal modal fade" id="speakersModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -1433,18 +1752,14 @@ His TEDx talk can be aptly named as “Technology is my best friend”.
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/speakers/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Production</li>
-                  </ul>
+                  <h2>Aashqeen</h2>
+                  <p class="item-intro text-muted">Youtube Content Creator</p>
+                  <p>
+                    Making people laugh sure is hard, but for him it almost seems second nature now. Amassing over 100 million views  on his YouTube channel, Aashqeen has been hitting his viewers' funny bone since 2015. What started as a hobby of creating vines and exporting it online through his Facebook has now become an omnipresent character on YouTube with almost 2 million subscribers, multiple collaborations, and amazing series of videos.
+                  </p>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                    
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -1453,8 +1768,166 @@ His TEDx talk can be aptly named as “Technology is my best friend”.
       </div>
     </div>
 
-       
-      
+
+        <!-- Modal 7 4k -->
+        <div class="speakers-modal modal fade" id="speakersModal7" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details Go Here -->
+                      <h2>Chaar Hazaari</h2>
+                      <p class="item-intro text-muted">Folk Rock Band</p>
+                      <p>
+                        What happens when four college students happen to dream of enlarging the scintilla of music within themselves?  CHAR HAZAARI.
+
+A band created by four people, while pursuing their education; with nothing but their dreams and passion; Char Hazaari was formed in 2012. With music as their panacea, Char Hazaari started their jams and practice sessions, later on adding another member. Infusing classical music with contemporary, Char Hazaari has created nine compositions so far,  with many more to come. In their words,  they share a dream to play, breathe music as long and as much as they can. From their first gig at Jaypee College,  they have surely come a long way with their music being featured in Tehelka Music Project and multiple media platforms. Five young men who were once fighting dreamers, who have now become huge sensations.
+                      </p>
+                      <button class="btn btn-primary" data-dismiss="modal" type="button">
+                        
+                        Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 8 damle -->
+        <div class="speakers-modal modal fade" id="speakersModal8" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details Go Here -->
+                      <h2>Akshara Damle</h2>
+                      <p class="item-intro text-muted">Psychologist</p>
+                      <p>
+                        It could take years to understand oneself, to come to terms with our shortcomings. Understanding someone else, could be another panoply of emotions and experiences. Akshara Damle, however, seems to have gotten the hang of it now. Founder and psychologist at Mano Samvaada, Damle is a life coach, NLP practitioner and a public policy analyst. Other than his inclination towards human emotions, he is also a passionate writer, singer and traveller.
+He also has a keen interest in Indian classical art forms which translates into his works as well.
+                      </p>
+                      <button class="btn btn-primary" data-dismiss="modal" type="button">
+                        
+                        Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 9 joshi -->
+        <div class="speakers-modal modal fade" id="speakersModal9" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details Go Here -->
+                      <h2>Parikshit Joshi</h2>
+                      <p class="item-intro text-muted">Writer and Director</p>
+                      <p>
+                        People prefer to be an ace of one rather than a jack of all, but things change just a bit when you want to be the ace of all. Interests in many fields can lead to great failures, but also a greater success, proven such by writer, actor and director, Parikshit Joshi. You can do anything you put your mind to, be it one or many and that is what Joshi has been doing amazingly.
+Belonging to Almora, Joshi graduated in mass communication at Maharaja Agrasen College. He is the former writer and editor of Mimaansa and has written and directed videos for many YouTube channels, like The Screen Patti, The Timeliners, Girliyapa, The Viral Fever and more. Apart from that, he has also acted in many web series belonging to the above channels, one of it being TSP's Rabish ki Report.
+Investing his time in creating halcyon content online and offline, Joshi has been efficient in all his fields of work.
+                      </p>
+                      <button class="btn btn-primary" data-dismiss="modal" type="button">
+                        
+                        Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 10 jay -->
+        <div class="speakers-modal modal fade" id="speakersModal10" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details Go Here -->
+                      <h2>Jay Alani</h2>
+                      <p class="item-intro text-muted">Paranormal Investigator</p>
+                      <p>
+                        Some base it on belief, others base it on science. Some refuse to believe out of fear, some out of the argument that it lacks logic. Whatever the case might be, this topic has always been one to gather people's attention. However, it attracted Jay Alani in a way slightly different from others. Instead of playing make-believe with the tales of ghosts, he inclined towards learning about them, and their existence. This gave rise to the beginning of his now 8 year long career in studying paranormal activities. Representing 6 paranormal troops of India internationally, having investigated more than 40 of such cases and having studied over 110 of them, Alani is now all set to publish his own book under Penguin India, which is all set to come out this December.
+                      </p>
+                      <button class="btn btn-primary" data-dismiss="modal" type="button">
+                        
+                        Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 11 ssp -->
+        <div class="speakers-modal modal fade" id="speakersModal11" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details Go Here -->
+                      <h2>IPS DR. AJAY PAL SHARMA</h2>
+                      <p class="item-intro text-muted">SSP, GAUTAM BUDH NAGAR</p>
+                      <p>
+                          Born in Punjab, Dr Ajay Pal Sharma is the current SSP of Gautam Budhh Nagar. Originally a doctor, Sharma became an IPS Officer in 2011 from UP Cadre. Having an amazing track record of shutting down organized crimes, eliminating mafia gangs and having expertise in handling kidnapping cases, he has become one of the youth icons of the country. He has also stressed on cyber crimes in the area, and is working on prevention of cyber frauds and fake call centers. His sincerity towards his work has also found its way to praises of the mainstream media.
+                      </p>
+                      <button class="btn btn-primary" data-dismiss="modal" type="button">
+                        
+                        Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--hpel em onw ihts rolwd is lkilnig em-->
+
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -1470,7 +1943,7 @@ His TEDx talk can be aptly named as “Technology is my best friend”.
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-  
+
     <script src="js/tab.js"></script>
 
   </body>
